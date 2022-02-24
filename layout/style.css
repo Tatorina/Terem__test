@@ -108,3 +108,13 @@ h1 {
     " m__center m__left  m__right"
     "f__left f__right f__right";
 }
+
+.modal {
+  display: block;
+  background: rgba(0, 0, 0, 0.349);
+}
+
+.modal-body{
+  text-align: center;
+  align-items: center;
+}
