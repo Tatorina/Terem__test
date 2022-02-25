@@ -5,6 +5,7 @@
   width: 20vw;
   height: 7vw;
   margin: 3vw 3vw 0;
+  font-size: calc((100vw - 320px)/(1500 - 320) * (18 - 7) + 7px);
 }
 
 .container{
@@ -25,7 +26,8 @@
   background-color: grey;
   border-radius: 5px;
   padding-left: 2vw;
-  min-width: 160px;
+  width: 20vw;
+  min-width: 60px;
 }
 
 .list__item {
@@ -37,6 +39,8 @@
 .show {
   display: block;
   position: absolute;
+  left: 11%;
+  margin: 5% 0 0 0 ;
 }
 
 .text__container {
